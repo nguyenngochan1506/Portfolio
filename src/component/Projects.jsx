@@ -16,8 +16,8 @@ const Projects = () => {
                             <h2 className="text-xl font-medium tracking-wide capitalize">{title}</h2>
                             <p className="tracking-wide text-slate-700 leading-7 mt-4">{text}</p>
                         <div className="mt-4 flex gap-x-4">
-                            <a href={gitHub} target="_blank"><FaGitSquare className="h-8 w-8"/></a>
-                            {url && <a href={url} target="_blank"><TbWorldWww className="h-7 w-7"/></a>}
+                            <a href={gitHub} target="_blank"><FaGitSquare className="h-8 w-8 text-slate-700 hover:text-black" /></a>
+                            {url && <a href={url} target="_blank"><TbWorldWww className="h-7 w-7 text-slate-700  hover:text-black"/></a>}
                             </div>
                         </div>
                     </article>
